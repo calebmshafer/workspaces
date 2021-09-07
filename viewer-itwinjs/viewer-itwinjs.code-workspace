@@ -10,7 +10,7 @@
     },
     {
       "name": "workspaces",
-      "path": "../../workspaces"
+      "path": "../../workspaces",
     }
   ],
   "settings": {

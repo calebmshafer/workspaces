@@ -26,6 +26,14 @@
       "projectFolder": "../../imodeljs2/clients/frontend-authorization"
     },
     {
+      "packageName": "@bentley/extension-webpack-tools",
+      "projectFolder": "../../imodeljs2/tools/extension-webpack"
+    },
+    {
+      "packageName": "@bentley/presentation-testing",
+      "projectFolder": "../../imodeljs2/presentation/testing"
+    },
+    {
       "packageName": "@bentley/imodelhub-client",
       "projectFolder": "../../imodeljs2/clients/imodelhub"
     },
@@ -114,6 +122,14 @@
       "projectFolder": "../../imodeljs2/ui/core"
     },
     {
+      "packageName": "internal-tools",
+      "projectFolder": "../../imodeljs2/tools/internal"
+    },
+    {
+      "packageName": "@bentley/perf-tools",
+      "projectFolder": "../../imodeljs2/tools/perf-tools"
+    },
+    {
       "packageName": "@bentley/ui-components",
       "projectFolder": "../../imodeljs2/ui/components"
     },
@@ -180,10 +196,6 @@
     {
       "packageName": "@bentley/oidc-signin-tool",
       "projectFolder": "../../imodeljs2/tools/oidc-signin-tool"
-    },
-    {
-      "packageName": "@bentley/map-layers",
-      "projectFolder": "../../imodeljs2/extensions/map-layers"
     },
     {
       "packageName": "@itwin/viewer-react",
