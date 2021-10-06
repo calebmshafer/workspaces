@@ -1,0 +1,213 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
+  "rushVersion": "5.51.1",
+  "pnpmVersion": "6.13.0",
+  "nodeSupportedVersionRange": ">=12.17.0 <17.0.0",
+  "pnpmOptions": {
+    "useWorkspaces": true
+  },
+  "projectFolderMinDepth": 1,
+  "projectFolderMaxDepth": 7,
+  "projects": [
+    {
+      "packageName": "@itwin/build-tools",
+      "projectFolder": "../../imodeljs/tools/build"
+    },
+    {
+      "packageName": "@itwin/eslint-plugin",
+      "projectFolder": "../../imodeljs/tools/eslint-plugin"
+    },
+    {
+      "packageName": "@bentley/itwin-registry-client",
+      "projectFolder": "../../imodeljs/clients/itwin-registry"
+    },
+    {
+      "packageName": "@bentley/frontend-authorization-client",
+      "projectFolder": "../../imodeljs/clients/frontend-authorization"
+    },
+    {
+      "packageName": "@bentley/imodelhub-client",
+      "projectFolder": "../../imodeljs/clients/imodelhub"
+    },
+    {
+      "packageName": "@bentley/itwin-client",
+      "projectFolder": "../../imodeljs/clients/itwin"
+    },
+    {
+      "packageName": "@bentley/product-settings-client",
+      "projectFolder": "../../imodeljs/clients/product-settings"
+    },
+    {
+      "packageName": "@bentley/reality-data-client",
+      "projectFolder": "../../imodeljs/clients/reality-data"
+    },
+    {
+      "packageName": "@bentley/telemetry-client",
+      "projectFolder": "../../imodeljs/clients/telemetry"
+    },
+    {
+      "packageName": "@itwin/core-bentley",
+      "projectFolder": "../../imodeljs/core/bentley"
+    },
+    {
+      "packageName": "@itwin/core-geometry",
+      "projectFolder": "../../imodeljs/core/geometry"
+    },
+    {
+      "packageName": "@itwin/core-orbitgt",
+      "projectFolder": "../../imodeljs/core/orbitgt"
+    },
+    {
+      "packageName": "@itwin/core-common",
+      "projectFolder": "../../imodeljs/core/common"
+    },
+    {
+      "packageName": "@itwin/core-backend",
+      "projectFolder": "../../imodeljs/core/backend"
+    },
+    {
+      "packageName": "@bentley/backend-itwin-client",
+      "projectFolder": "../../imodeljs/core/backend-itwin-client"
+    },
+    {
+      "packageName": "@itwin/core-quantity",
+      "projectFolder": "../../imodeljs/core/quantity"
+    },
+    {
+      "packageName": "@itwin/core-frontend",
+      "projectFolder": "../../imodeljs/core/frontend"
+    },
+    {
+      "packageName": "@itwin/frontend-devtools",
+      "projectFolder": "../../imodeljs/core/frontend-devtools"
+    },
+    {
+      "packageName": "@itwin/webgl-compatibility",
+      "projectFolder": "../../imodeljs/core/webgl-compatibility"
+    },
+    {
+      "packageName": "@itwin/core-i18n",
+      "projectFolder": "../../imodeljs/core/i18n"
+    },
+    {
+      "packageName": "@itwin/presentation-common",
+      "projectFolder": "../../imodeljs/presentation/common"
+    },
+    {
+      "packageName": "@itwin/presentation-backend",
+      "projectFolder": "../../imodeljs/presentation/backend"
+    },
+    {
+      "packageName": "@itwin/presentation-frontend",
+      "projectFolder": "../../imodeljs/presentation/frontend"
+    },
+    {
+      "packageName": "@itwin/presentation-components",
+      "projectFolder": "../../imodeljs/presentation/components"
+    },
+    {
+      "packageName": "@itwin/appui-abstract",
+      "projectFolder": "../../imodeljs/ui/abstract"
+    },
+    {
+      "packageName": "@itwin/core-react",
+      "projectFolder": "../../imodeljs/ui/core"
+    },
+    {
+      "packageName": "@itwin/components-react",
+      "projectFolder": "../../imodeljs/ui/components"
+    },
+    {
+      "packageName": "@itwin/imodel-components-react",
+      "projectFolder": "../../imodeljs/ui/imodel-components"
+    },
+    {
+      "packageName": "@itwin/appui-layout-react",
+      "projectFolder": "../../imodeljs/ui/ninezone"
+    },
+    {
+      "packageName": "@itwin/appui-react",
+      "projectFolder": "../../imodeljs/ui/framework"
+    },
+    {
+      "packageName": "@itwin/ecschema-metadata",
+      "projectFolder": "../../imodeljs/core/ecschema-metadata"
+    },
+    {
+      "packageName": "@itwin/ecschema-locaters",
+      "projectFolder": "../../imodeljs/core/ecschema-locaters"
+    },
+    {
+      "packageName": "@itwin/core-webpack-tools",
+      "projectFolder": "../../imodeljs/tools/webpack-core"
+    },
+    {
+      "packageName": "@itwin/backend-webpack-tools",
+      "projectFolder": "../../imodeljs/tools/backend-webpack"
+    },
+    {
+      "packageName": "@itwin/core-markup",
+      "projectFolder": "../../imodeljs/core/markup"
+    },
+    {
+      "packageName": "@itwin/hypermodeling-frontend",
+      "projectFolder": "../../imodeljs/core/hypermodeling"
+    },
+    {
+      "packageName": "@itwin/core-electron",
+      "projectFolder": "../../imodeljs/core/electron"
+    },
+    {
+      "packageName": "@itwin/express-server",
+      "projectFolder": "../../imodeljs/core/express-server"
+    },
+    {
+      "packageName": "@itwin/ecschema-rpcinterface-common",
+      "projectFolder": "../../imodeljs/core/ecschema-rpc/common"
+    },
+    {
+      "packageName": "@itwin/ecschema-rpcinterface-impl",
+      "projectFolder": "../../imodeljs/core/ecschema-rpc/impl"
+    },
+    {
+      "packageName": "@itwin/ecschema-rpcinterface-tests",
+      "projectFolder": "../../imodeljs/full-stack-tests/ecschema-rpc-interface"
+    },
+    {
+      "packageName": "@itwin/certa",
+      "projectFolder": "../../imodeljs/tools/certa"
+    },
+    {
+      "packageName": "@itwin/oidc-signin-tool",
+      "projectFolder": "../../imodeljs/tools/oidc-signin-tool"
+    },
+    {
+      "packageName": "@itwin/map-layers",
+      "projectFolder": "../../imodeljs/extensions/map-layers"
+    },
+    {
+      "packageName": "internal-tools",
+      "projectFolder": "../../imodeljs/tools/internal"
+    },
+    {
+      "packageName": "@itwin/perf-tools",
+      "projectFolder": "../../imodeljs/tools/perf-tools"
+    },
+    {
+      "packageName": "@itwin/presentation-testing",
+      "projectFolder": "../../imodeljs/presentation/testing"
+    },
+    {
+      "packageName": "@itwin/browser-authorization",
+      "projectFolder": "../../auth-clients/packages/browser"
+    },
+    {
+      "packageName": "@itwin/electron-authorization",
+      "projectFolder": "../../auth-clients/packages/electron"
+    },
+    {
+      "packageName": "@itwin/service-authorization",
+      "projectFolder": "../../auth-clients/packages/service"
+    }
+  ]
+}
