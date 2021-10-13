@@ -16,16 +16,8 @@
       "projectFolder": "../../imodeljs2/tools/eslint-plugin"
     },
     {
-      "packageName": "@bentley/context-registry-client",
-      "projectFolder": "../../imodeljs2/clients/context-registry"
-    },
-    {
-      "packageName": "@bentley/frontend-authorization-client",
-      "projectFolder": "../../imodeljs2/clients/frontend-authorization"
-    },
-    {
-      "packageName": "@bentley/extension-webpack-tools",
-      "projectFolder": "../../imodeljs2/tools/extension-webpack"
+      "packageName": "@bentley/itwin-registry-client",
+      "projectFolder": "../../imodeljs2/clients/itwin-registry"
     },
     {
       "packageName": "@bentley/presentation-testing",

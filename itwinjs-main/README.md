@@ -22,8 +22,6 @@ In order for the repo connecting to work, there are a few manual steps required.
 1. Update the `itwinjs.code-workspace` folder to the correct names of each repo.
     - It currently assumes the iModel.js repo is called "imodeljs" as a peer of this repo. Similar assumptions are made for each of the other repos.
 2. Update the [rush.json](./rush.json) with the same paths as updated above. Each project required is relatively linked to the other repo, so the path updates are required.
-3. Update all of the references to the packages/projects defined in the `rush.json` to be referenced as part of the workspace, "workspace:*".
-  a) Do this by, searching for `@itwin/desktop-viewer-react": ".*"` and replacing with `@itwin/desktop-viewer-react": "workspace:*"`
 
 > WARNING: The above steps will break both repos being connected from working in a non-workspace setting.
 > The way to fix it is by running a `rush purge` and `rush install` directly with the repo you'd like to get back into a current working state.

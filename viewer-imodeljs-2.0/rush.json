@@ -1,0 +1,225 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
+  "rushVersion": "5.51.1",
+  "pnpmVersion": "6.13.0",
+  "pnpmOptions": {
+    "useWorkspaces": true
+  },
+  "nodeSupportedVersionRange": ">=12.17.0 <15.0.0",
+  "projectFolderMinDepth": 1,
+  "projectFolderMaxDepth": 7,
+  "projects": [
+    {
+      "packageName": "@bentley/build-tools",
+      "projectFolder": "../../imodeljs2/tools/build"
+    },
+    {
+      "packageName": "@bentley/eslint-plugin",
+      "projectFolder": "../../imodeljs2/tools/eslint-plugin"
+    },
+    {
+      "packageName": "@bentley/context-registry-client",
+      "projectFolder": "../../imodeljs2/clients/context-registry"
+    },
+    {
+      "packageName": "@bentley/frontend-authorization-client",
+      "projectFolder": "../../imodeljs2/clients/frontend-authorization"
+    },
+    {
+      "packageName": "@bentley/extension-webpack-tools",
+      "projectFolder": "../../imodeljs2/tools/extension-webpack"
+    },
+    {
+      "packageName": "@bentley/presentation-testing",
+      "projectFolder": "../../imodeljs2/presentation/testing"
+    },
+    {
+      "packageName": "@bentley/imodelhub-client",
+      "projectFolder": "../../imodeljs2/clients/imodelhub"
+    },
+    {
+      "packageName": "@bentley/itwin-client",
+      "projectFolder": "../../imodeljs2/clients/itwin"
+    },
+    {
+      "packageName": "@bentley/product-settings-client",
+      "projectFolder": "../../imodeljs2/clients/product-settings"
+    },
+    {
+      "packageName": "@bentley/reality-data-client",
+      "projectFolder": "../../imodeljs2/clients/reality-data"
+    },
+    {
+      "packageName": "@bentley/telemetry-client",
+      "projectFolder": "../../imodeljs2/clients/telemetry"
+    },
+    {
+      "packageName": "@bentley/bentleyjs-core",
+      "projectFolder": "../../imodeljs2/core/bentley"
+    },
+    {
+      "packageName": "@bentley/geometry-core",
+      "projectFolder": "../../imodeljs2/core/geometry"
+    },
+    {
+      "packageName": "@bentley/orbitgt-core",
+      "projectFolder": "../../imodeljs2/core/orbitgt"
+    },
+    {
+      "packageName": "@bentley/imodeljs-common",
+      "projectFolder": "../../imodeljs2/core/common"
+    },
+    {
+      "packageName": "@bentley/imodeljs-backend",
+      "projectFolder": "../../imodeljs2/core/backend"
+    },
+    {
+      "packageName": "@bentley/backend-itwin-client",
+      "projectFolder": "../../imodeljs2/core/backend-itwin-client"
+    },
+    {
+      "packageName": "@bentley/imodeljs-quantity",
+      "projectFolder": "../../imodeljs2/core/quantity"
+    },
+    {
+      "packageName": "@bentley/imodeljs-frontend",
+      "projectFolder": "../../imodeljs2/core/frontend"
+    },
+    {
+      "packageName": "@bentley/frontend-devtools",
+      "projectFolder": "../../imodeljs2/core/frontend-devtools"
+    },
+    {
+      "packageName": "@bentley/webgl-compatibility",
+      "projectFolder": "../../imodeljs2/core/webgl-compatibility"
+    },
+    {
+      "packageName": "@bentley/imodeljs-i18n",
+      "projectFolder": "../../imodeljs2/core/i18n"
+    },
+    {
+      "packageName": "@bentley/presentation-common",
+      "projectFolder": "../../imodeljs2/presentation/common"
+    },
+    {
+      "packageName": "@bentley/presentation-backend",
+      "projectFolder": "../../imodeljs2/presentation/backend"
+    },
+    {
+      "packageName": "@bentley/presentation-frontend",
+      "projectFolder": "../../imodeljs2/presentation/frontend"
+    },
+    {
+      "packageName": "@bentley/presentation-components",
+      "projectFolder": "../../imodeljs2/presentation/components"
+    },
+    {
+      "packageName": "@bentley/ui-abstract",
+      "projectFolder": "../../imodeljs2/ui/abstract"
+    },
+    {
+      "packageName": "@bentley/ui-core",
+      "projectFolder": "../../imodeljs2/ui/core"
+    },
+    {
+      "packageName": "internal-tools",
+      "projectFolder": "../../imodeljs2/tools/internal"
+    },
+    {
+      "packageName": "@bentley/perf-tools",
+      "projectFolder": "../../imodeljs2/tools/perf-tools"
+    },
+    {
+      "packageName": "@bentley/ui-components",
+      "projectFolder": "../../imodeljs2/ui/components"
+    },
+    {
+      "packageName": "@bentley/ui-imodel-components",
+      "projectFolder": "../../imodeljs2/ui/imodel-components"
+    },
+    {
+      "packageName": "@bentley/ui-ninezone",
+      "projectFolder": "../../imodeljs2/ui/ninezone"
+    },
+    {
+      "packageName": "@bentley/ui-framework",
+      "projectFolder": "../../imodeljs2/ui/framework"
+    },
+    {
+      "packageName": "@bentley/ecschema-metadata",
+      "projectFolder": "../../imodeljs2/core/ecschema-metadata"
+    },
+    {
+      "packageName": "@bentley/ecschema-locaters",
+      "projectFolder": "../../imodeljs2/core/ecschema-locaters"
+    },
+    {
+      "packageName": "@bentley/webpack-tools-core",
+      "projectFolder": "../../imodeljs2/tools/webpack-core"
+    },
+    {
+      "packageName": "@bentley/backend-webpack-tools",
+      "projectFolder": "../../imodeljs2/tools/backend-webpack"
+    },
+    {
+      "packageName": "@bentley/imodeljs-markup",
+      "projectFolder": "../../imodeljs2/core/markup"
+    },
+    {
+      "packageName": "@bentley/hypermodeling-frontend",
+      "projectFolder": "../../imodeljs2/core/hypermodeling"
+    },
+    {
+      "packageName": "@bentley/electron-manager",
+      "projectFolder": "../../imodeljs2/core/electron-manager"
+    },
+    {
+      "packageName": "@bentley/express-server",
+      "projectFolder": "../../imodeljs2/core/express-server"
+    },
+    {
+      "packageName": "@bentley/ecschema-rpcinterface-common",
+      "projectFolder": "../../imodeljs2/core/ecschema-rpc/common"
+    },
+    {
+      "packageName": "@bentley/ecschema-rpcinterface-impl",
+      "projectFolder": "../../imodeljs2/core/ecschema-rpc/impl"
+    },
+    {
+      "packageName": "@bentley/ecschema-rpcinterface-tests",
+      "projectFolder": "../../imodeljs2/full-stack-tests/ecschema-rpc-interface"
+    },
+    {
+      "packageName": "@bentley/certa",
+      "projectFolder": "../../imodeljs2/tools/certa"
+    },
+    {
+      "packageName": "@bentley/oidc-signin-tool",
+      "projectFolder": "../../imodeljs2/tools/oidc-signin-tool"
+    },
+    {
+      "packageName": "@itwin/viewer-react",
+      "projectFolder": "../../viewer/packages/modules/viewer-react"
+    },
+    {
+      "packageName": "@itwin/error-handling-react",
+      "projectFolder": "../../viewer/packages/modules/error-handling-react"
+    },
+    {
+      "packageName": "@itwin/web-viewer-react",
+      "projectFolder": "../../viewer/packages/modules/web-viewer-react"
+    },
+    {
+      "packageName": "@itwin/desktop-viewer-react",
+      "projectFolder": "../../viewer/packages/modules/desktop-viewer-react"
+    },
+    {
+      "packageName": "@itwin/web-viewer-test",
+      "projectFolder": "../../viewer/packages/apps/web-viewer-test"
+    },
+    {
+      "packageName": "@itwin/desktop-viewer-test",
+      "projectFolder": "../../viewer/packages/apps/desktop-viewer-test"
+    }
+  ]
+}
