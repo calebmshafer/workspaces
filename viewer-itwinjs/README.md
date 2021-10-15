@@ -1,6 +1,6 @@
-# iTwin Viewer and iModel.js Workspace
+# iTwin Viewer and iTwin.js Workspace
 
-This workspace is setup to support both the iModel.js core repository and the iTwin Viewer repo.
+This workspace is setup to support both the iTwin.js core repository and the iTwin Viewer repo.
 
 The connecting of the two repositories is handled by using Rush to connect both repos
 
