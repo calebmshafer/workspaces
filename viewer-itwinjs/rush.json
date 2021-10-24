@@ -10,7 +10,7 @@
   "projects": [
     {
       "packageName": "@itwin/core-extension",
-      "projectFolder": "../../imodeljs3/core/itwin-extension"
+      "projectFolder": "../../imodeljs3/core/extension"
     },
     {
       "packageName": "@itwin/build-tools",
