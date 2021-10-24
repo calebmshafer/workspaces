@@ -9,168 +9,184 @@
   },
   "projects": [
     {
+      "packageName": "@itwin/core-extension",
+      "projectFolder": "../../imodeljs3/core/itwin-extension"
+    },
+    {
       "packageName": "@itwin/build-tools",
-      "projectFolder": "../../imodeljs2/tools/build"
+      "projectFolder": "../../imodeljs3/tools/build"
     },
     {
       "packageName": "@itwin/eslint-plugin",
-      "projectFolder": "../../imodeljs2/tools/eslint-plugin"
+      "projectFolder": "../../imodeljs3/tools/eslint-plugin"
     },
     {
       "packageName": "@bentley/imodelhub-client",
-      "projectFolder": "../../imodeljs2/clients/imodelhub"
+      "projectFolder": "../../imodeljs3/clients/imodelhub"
     },
     {
       "packageName": "@bentley/itwin-client",
-      "projectFolder": "../../imodeljs2/clients/itwin"
+      "projectFolder": "../../imodeljs3/clients/itwin"
     },
     {
       "packageName": "@bentley/product-settings-client",
-      "projectFolder": "../../imodeljs2/clients/product-settings"
+      "projectFolder": "../../imodeljs3/clients/product-settings"
     },
     {
       "packageName": "@bentley/reality-data-client",
-      "projectFolder": "../../imodeljs2/clients/reality-data"
+      "projectFolder": "../../imodeljs3/clients/reality-data"
     },
     {
       "packageName": "@bentley/telemetry-client",
-      "projectFolder": "../../imodeljs2/clients/telemetry"
+      "projectFolder": "../../imodeljs3/clients/telemetry"
     },
     {
       "packageName": "@itwin/core-bentley",
-      "projectFolder": "../../imodeljs2/core/bentley"
+      "projectFolder": "../../imodeljs3/core/bentley"
     },
     {
       "packageName": "@itwin/core-geometry",
-      "projectFolder": "../../imodeljs2/core/geometry"
+      "projectFolder": "../../imodeljs3/core/geometry"
     },
     {
       "packageName": "@itwin/core-orbitgt",
-      "projectFolder": "../../imodeljs2/core/orbitgt"
+      "projectFolder": "../../imodeljs3/core/orbitgt"
     },
     {
       "packageName": "@itwin/core-common",
-      "projectFolder": "../../imodeljs2/core/common"
+      "projectFolder": "../../imodeljs3/core/common"
     },
     {
       "packageName": "@itwin/core-backend",
-      "projectFolder": "../../imodeljs2/core/backend"
+      "projectFolder": "../../imodeljs3/core/backend"
     },
     {
       "packageName": "@itwin/core-quantity",
-      "projectFolder": "../../imodeljs2/core/quantity"
+      "projectFolder": "../../imodeljs3/core/quantity"
     },
     {
       "packageName": "@itwin/core-frontend",
-      "projectFolder": "../../imodeljs2/core/frontend"
+      "projectFolder": "../../imodeljs3/core/frontend"
     },
     {
       "packageName": "@itwin/frontend-devtools",
-      "projectFolder": "../../imodeljs2/core/frontend-devtools"
+      "projectFolder": "../../imodeljs3/core/frontend-devtools"
     },
     {
       "packageName": "@itwin/webgl-compatibility",
-      "projectFolder": "../../imodeljs2/core/webgl-compatibility"
+      "projectFolder": "../../imodeljs3/core/webgl-compatibility"
     },
     {
       "packageName": "@itwin/core-i18n",
-      "projectFolder": "../../imodeljs2/core/i18n"
+      "projectFolder": "../../imodeljs3/core/i18n"
     },
     {
       "packageName": "@itwin/presentation-common",
-      "projectFolder": "../../imodeljs2/presentation/common"
+      "projectFolder": "../../imodeljs3/presentation/common"
     },
     {
       "packageName": "@itwin/presentation-backend",
-      "projectFolder": "../../imodeljs2/presentation/backend"
+      "projectFolder": "../../imodeljs3/presentation/backend"
     },
     {
       "packageName": "@itwin/presentation-frontend",
-      "projectFolder": "../../imodeljs2/presentation/frontend"
+      "projectFolder": "../../imodeljs3/presentation/frontend"
     },
     {
       "packageName": "@itwin/presentation-components",
-      "projectFolder": "../../imodeljs2/presentation/components"
+      "projectFolder": "../../imodeljs3/presentation/components"
+    },
+    {
+      "packageName": "@itwin/presentation-testing",
+      "projectFolder": "../../imodeljs3/presentation/testing"
     },
     {
       "packageName": "@itwin/appui-abstract",
-      "projectFolder": "../../imodeljs2/ui/appui-abstract"
+      "projectFolder": "../../imodeljs3/ui/appui-abstract"
     },
     {
       "packageName": "@itwin/core-react",
-      "projectFolder": "../../imodeljs2/ui/core-react"
+      "projectFolder": "../../imodeljs3/ui/core-react"
     },
     {
       "packageName": "@itwin/components-react",
-      "projectFolder": "../../imodeljs2/ui/components-react"
+      "projectFolder": "../../imodeljs3/ui/components-react"
     },
     {
       "packageName": "@itwin/imodel-components-react",
-      "projectFolder": "../../imodeljs2/ui/imodel-components-react"
+      "projectFolder": "../../imodeljs3/ui/imodel-components-react"
     },
     {
       "packageName": "@itwin/appui-layout-react",
-      "projectFolder": "../../imodeljs2/ui/appui-layout-react"
+      "projectFolder": "../../imodeljs3/ui/appui-layout-react"
     },
     {
       "packageName": "@itwin/appui-react",
-      "projectFolder": "../../imodeljs2/ui/appui-react"
+      "projectFolder": "../../imodeljs3/ui/appui-react"
     },
     {
       "packageName": "@itwin/ecschema-metadata",
-      "projectFolder": "../../imodeljs2/core/ecschema-metadata"
+      "projectFolder": "../../imodeljs3/core/ecschema-metadata"
     },
     {
       "packageName": "@itwin/ecschema-locaters",
-      "projectFolder": "../../imodeljs2/core/ecschema-locaters"
+      "projectFolder": "../../imodeljs3/core/ecschema-locaters"
     },
     {
       "packageName": "@itwin/core-webpack-tools",
-      "projectFolder": "../../imodeljs2/tools/webpack-core"
+      "projectFolder": "../../imodeljs3/tools/webpack-core"
     },
     {
       "packageName": "@itwin/backend-webpack-tools",
-      "projectFolder": "../../imodeljs2/tools/backend-webpack"
+      "projectFolder": "../../imodeljs3/tools/backend-webpack"
     },
     {
       "packageName": "@itwin/core-markup",
-      "projectFolder": "../../imodeljs2/core/markup"
+      "projectFolder": "../../imodeljs3/core/markup"
     },
     {
       "packageName": "@itwin/hypermodeling-frontend",
-      "projectFolder": "../../imodeljs2/core/hypermodeling"
+      "projectFolder": "../../imodeljs3/core/hypermodeling"
     },
     {
       "packageName": "@itwin/core-electron",
-      "projectFolder": "../../imodeljs2/core/electron"
+      "projectFolder": "../../imodeljs3/core/electron"
     },
     {
       "packageName": "@itwin/express-server",
-      "projectFolder": "../../imodeljs2/core/express-server"
+      "projectFolder": "../../imodeljs3/core/express-server"
     },
     {
       "packageName": "@itwin/ecschema-rpcinterface-common",
-      "projectFolder": "../../imodeljs2/core/ecschema-rpc/common"
+      "projectFolder": "../../imodeljs3/core/ecschema-rpc/common"
     },
     {
       "packageName": "@itwin/ecschema-rpcinterface-impl",
-      "projectFolder": "../../imodeljs2/core/ecschema-rpc/impl"
+      "projectFolder": "../../imodeljs3/core/ecschema-rpc/impl"
     },
     {
       "packageName": "@itwin/ecschema-rpcinterface-tests",
-      "projectFolder": "../../imodeljs2/full-stack-tests/ecschema-rpc-interface"
+      "projectFolder": "../../imodeljs3/full-stack-tests/ecschema-rpc-interface"
     },
     {
       "packageName": "@itwin/certa",
-      "projectFolder": "../../imodeljs2/tools/certa"
+      "projectFolder": "../../imodeljs3/tools/certa"
     },
     {
       "packageName": "@itwin/oidc-signin-tool",
-      "projectFolder": "../../imodeljs2/tools/oidc-signin-tool"
+      "projectFolder": "../../imodeljs3/tools/oidc-signin-tool"
+    },
+    {
+      "packageName": "internal-tools",
+      "projectFolder": "../../imodeljs3/tools/internal"
+    },
+    {
+      "packageName": "extension-prototype",
+      "projectFolder": "../../imodeljs3/extensions/test-extension"
     },
     {
       "packageName": "@itwin/map-layers",
-      "projectFolder": "../../imodeljs2/extensions/map-layers"
+      "projectFolder": "../../imodeljs3/extensions/map-layers"
     },
     {
       "packageName": "@itwin/viewer-react",
